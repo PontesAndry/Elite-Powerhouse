@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- folha de estilo personalizado -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- add de icon -->
+     <link rel="icon" href="img/logo.png">
+    <title>Academia Elite Powerhouse</title>
+</head>
+<body>
+    <!-- criação do header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center gap-4" href="#">
+                    <img src="img/logo.png" alt="Logo" height="50" class="d-inline-block align-text-top">
+                    Elite Powerhouse
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Modalidades
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Musculação</a></li>
+                      <li><a class="dropdown-item" href="#">Pilates</a></li>
+                      <li><a class="dropdown-item" href="#">CrossFit</a></li>
+                      <li><a class="dropdown-item" href="#">Zumba</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Planos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- aqui começa os banners principais -->
+
+    <section class="banner-principal">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner-01.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Musculação</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner-02.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pilates</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner-03.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>CrossFit</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner-04.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Zumba</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- Aqui começa a minha seção sobre nós -->
+
+    <section class="sobre-nos d-flex gap-4">
+        <div class="container-texto">
+        <h1>Entre na <span>Elite Powerhouse</span> e Descubra Seu Potencial: Onde Força e a Transformação se Encontram!</h1>
+        <p>Na Elite Powerhouse, a força é o nosso legado. Somos mais do que uma academia; somos um centro de transformação onde você encontra apoio, motivação e as ferramentas necessárias para alcançar seu máximo potencial</p>
+        <p>Nosso espaço é equipado com tecnologia de ponta e guiado por profissionais apaixonados pelo que fazem. Aqui, oferecemos uma variedade de  modalidades, desde musculação até aulas de grupo energéticas, tudo em um ambiente acolhedor que estimula o seu progresso. Junte-se à nossa comunidade e descubra a verdadeira força que existe em você!</p>
+        </div>
+        <img src="img/sobre.jpg" alt="Faixa da academia Elite Powerhouse">
+    </section>
+
+    <!-- aqui começa minhas modalidades -->
+
+    <!-- container normal tem uma margin e padding definidos -->
+    <!-- container fluid ocupa a largura total da class -->
+
+    <section class="container-fluid modalidade">
+        <h2 class="text-center">Modalidades</h2>
+        <!-- bloco 01 -->
+        <div class="d-flex align-items-center box gap-4">
+            <div class="flex-shrink-0">
+              <img src="img/banner-01.jpg" alt="Musculação">
+            </div>
+            <div class="flex-grow-1">
+              <h4>Musculação</h4>
+              <p>A musculação é uma modalidade de treinamento que visa o fortalecimento e o desenvolvimento muscular por meio do uso de pesos e equipamentos específicos. Indicado para pessoas de todas as idades, a musculação proporciona diversos benefícios, como aumento da força, tonificação muscular e melhora da resistência física. Nossos instrutores qualificados estão sempre disponíveis para orientar os alunos na execução correta dos exercícios, garantindo um treino seguro e eficiente. Além disso, a musculação contribui para a saúde óssea, ajuda no controle de peso e melhora a qualidade de vida, tornando-se uma excelente opção para quem busca resultados duradouros.</p>
+            </div>
+        </div>
+
+        <!-- bloco 02 -->
+        <div class="d-flex align-items-center box gap-4">
+            <div class="flex-grow-1">
+                <h4>Pilates</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, fuga cupiditate! Culpa magni voluptatum eveniet laborum. Labore nobis doloribus, modi quia doloremque eos eum possimus voluptatibus hic ipsum! Modi, accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur commodi nihil blanditiis sed aut similique eligendi natus! Vero eius numquam eos natus eveniet temporibus quam cumque odit cupiditate repellendus!</p>
+            </div>
+            <div class="flex-shrink-0">
+                <img src="img/banner-02.jpg" alt="Pilates">
+              </div>
+        </div>
+
+        <!-- bloco 03 -->
+        <div class="d-flex align-items-center box gap-4">
+            <div class="flex-shrink-0">
+              <img src="img/banner-03.jpg" alt="CrossFit">
+            </div>
+            <div class="flex-grow-1">
+                <h4>CrossFit</h4>
+                <p>O CrossFit é um programa de treinamento funcional que combina exercícios de alta intensidade, utilizando movimentos de levantamento de peso, ginástica e resistência cardiovascular. Cada aula é única e desafiadora, focando em um estilo de vida saudável e no desenvolvimento de habilidades físicas completas, como força, agilidade e resistência. O ambiente acolhedor e motivador da nossa academia promove um senso de comunidade, incentivando os participantes a superarem seus limites e alcançarem seus objetivos. Se você busca um treino dinâmico e empolgante, o CrossFit é a escolha perfeita para você.</p>
+            </div>
+        </div>
+
+        <!-- bloco 04 -->
+        <div class="d-flex align-items-center box gap-4">
+            <div class="flex-grow-1">
+                <h4>Zumba</h4>
+                <p>A Zumba é uma modalidade de dança fitness que combina movimentos de dança com ritmos contagiantes, como salsa, merengue e reggaeton. As aulas de Zumba são divertidas e energéticas, oferecendo uma maneira envolvente de queimar calorias e melhorar a resistência cardiovascular. Não é necessário ter experiência prévia em dança, pois os passos são simples e adaptáveis, tornando a prática acessível a todos. Nossos instrutores apaixonados por Zumba criam um ambiente vibrante e animado, fazendo de cada aula uma experiência única e motivadora. Venha se divertir enquanto se exercita e descubra a alegria de dançar!</p>
+            </div>
+            <div class="flex-shrink-0">
+                <img src="img/banner-04.png" alt="Zumba">
+              </div>
+        </div>
+
+    </section>
+
+    <!-- aqui começa a minha seção de planos e preços -->
+
+    <section class="precos">
+        <h2>Planos e Preços</h2>
+        <div class="container-fluid d-flex justify-content-around">
+
+            <!-- cartão 01 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/plano-basico.jpg" class="card-img-top" alt="Academia Elite Plano Básico">
+                <div class="card-body">
+                  <h5 class="card-title">Plano Básico</h5>
+                  <p class="card-text">Perfeito para quem está começando a explorar o mundo fitness, com acesso a todas as modalidades e orientação básica.</p>
+                  <a href="#" class="btn btn-primary">R$ 49,90</a>
+                </div>
+            </div>
+
+              <!-- cartão 02 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/plano-premium.avif" class="card-img-top" alt="Academia Elite Plano Premium">
+                <div class="card-body">
+                  <h5 class="card-title">Plano Premium</h5>
+                  <p class="card-text">Para aqueles que desejam aprimorar seus treinos, oferecendo acesso a aulas em grupo e programas de treinamento personalizados.</p>
+                  <a href="#" class="btn btn-primary">R$ 89,90</a>
+                </div>
+            </div>
+
+              <!-- cartão 03 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/plano-elite.webp" class="card-img-top" alt="Academia Elite Plano Elite">
+                <div class="card-body">
+                  <h5 class="card-title">Plano Elite</h5>
+                  <p class="card-text">Para os que buscam resultados máximos, com acesso ilimitado a todas as modalidades, treinos intensivos e acompanhamento exclusivo de treinadores.</p>
+                  <a href="#" class="btn btn-primary">R$ 149,90</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- aqui começa a seção e contato -->
+
+    <section class="contato">
+      <div class="container">
+        <h2 class="text-center mb-3">Entre em Contato Conosco</h2>
+        <form action="#">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" placeholder="Digite seu email" required class="form-control">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" placeholder="Digite seu nome" required class="form-control">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <label for="mensagem">Mensagem:</label>
+              <textarea name="mensagem" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui" required class="form-control"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer py-4 text-light">
+      <div class="container text-center">
+        <h5>Siga-nos nas Redes Sociais</h5>
+        <div class="social-icons mb-3">
+          <a href="#" class="text-light mx-2">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#" class="text-light mx-2">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="#" class="text-light mx-2">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="text-light mx-2">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+        <div class="end">
+          <p>Endereço: Rua Exemplo, 123, Cidade, Estado <br> Telefone: (00) 0000-0000</p>
+          <a href="mailto:contato@academiaelite.com" class="text-light">contato@academiaelite.com</a>
+        </div>
+        <hr>
+        <p>&copy;  2024 Academia Elite Powerhouse. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
